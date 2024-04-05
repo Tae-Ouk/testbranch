@@ -8,5 +8,6 @@
 import UIKit
 
 class CoffeeListCollectionCell: UICollectionViewCell {
-    
+    @IBOutlet weak var coffeeImage: UIImageView!
+    @IBOutlet weak var coffeeLabel: UILabel!
 }

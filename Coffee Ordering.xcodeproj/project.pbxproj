@@ -13,6 +13,7 @@
 		518D19332BBAA8F700673356 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 518D19322BBAA8F700673356 /* Base */; };
 		518D19352BBAA8F900673356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518D19342BBAA8F900673356 /* Assets.xcassets */; };
 		518D19382BBAA8F900673356 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 518D19372BBAA8F900673356 /* Base */; };
+		518D19402BBAC98D00673356 /* CoffeeListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D193F2BBAC98C00673356 /* CoffeeListCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		518D19342BBAA8F900673356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518D19372BBAA8F900673356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518D19392BBAA8F900673356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518D193F2BBAC98C00673356 /* CoffeeListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				518D192B2BBAA8F700673356 /* AppDelegate.swift */,
 				518D192D2BBAA8F700673356 /* SceneDelegate.swift */,
 				518D192F2BBAA8F700673356 /* ViewController.swift */,
+				518D193F2BBAC98C00673356 /* CoffeeListCollectionCell.swift */,
 				518D19312BBAA8F700673356 /* Main.storyboard */,
 				518D19342BBAA8F900673356 /* Assets.xcassets */,
 				518D19362BBAA8F900673356 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				518D19302BBAA8F700673356 /* ViewController.swift in Sources */,
+				518D19402BBAC98D00673356 /* CoffeeListCollectionCell.swift in Sources */,
 				518D192C2BBAA8F700673356 /* AppDelegate.swift in Sources */,
 				518D192E2BBAA8F700673356 /* SceneDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
